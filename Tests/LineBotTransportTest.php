@@ -14,7 +14,6 @@ namespace Symfony\Component\Notifier\Bridge\LineBot\Tests;
 use Symfony\Component\HttpClient\MockHttpClient;
 use Symfony\Component\HttpClient\Response\MockResponse;
 use Symfony\Component\Notifier\Bridge\LineBot\LineBotTransport;
-use Symfony\Component\Notifier\Bridge\Sendinblue\SendinblueTransport;
 use Symfony\Component\Notifier\Exception\TransportException;
 use Symfony\Component\Notifier\Message\ChatMessage;
 use Symfony\Component\Notifier\Message\SmsMessage;
